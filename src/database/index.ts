@@ -1,0 +1,14 @@
+import { Database } from "@nozbe/watermelondb";
+import SQLiteAdapter from "@nozbe/watermelondb/adapters//sqlite";
+
+import { schemas } from "./schema";
+import { PointItem } from "./model/PointItem"; 
+
+const adapter = new SQLiteAdapter({
+    schema: schemas
+});
+
+export const database = new Database({
+    adapter,
+    modelClasses: [ PointItem ],
+});
