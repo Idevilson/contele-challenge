@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "conteleApp",
+    "slug": "conteleApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
