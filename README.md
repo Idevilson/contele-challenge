@@ -13,7 +13,7 @@ My GPS - Tracking: aplicação para monitoramento e geolocalização através do
 
 ## Dependências básicas
 
-- [expo](https://docs.expo.dev/) O projeto foi criado através do expo.
+- [expo](https://docs.expo.dev/) O projeto foi criado usando o Expo.
 - [axios](https://github.com/axios/axios) for networking.
 - [react-navigation](https://reactnavigation.org/) para navegação entre as telas.
 - [react-native-localization](https://github.com/stefalda/ReactNativeLocalization) para localização.
