@@ -23,7 +23,7 @@ My GPS - Tracking: aplicação para monitoramento e geolocalização através do
 
 ## Estrutura de pastas
 
-This template follows a very simple project structure:
+Estrutura de pastas do projeto:
 
 - `src`: Pasta que contém todo o código da aplicação
   - `components`: Pasta que armazenas os componentes reutilizados na aplicação
