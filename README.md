@@ -1,6 +1,6 @@
 # contele-challenge
 
-My GPS - Tracking: aplicação para monitoramento e geolocalização através dos sensores do smartphone!
+My GPS - Tracking: aplicação Offline-First para monitoramento e geolocalização através dos sensores do smartphone!
 
 ## Pré-requisitos
 
@@ -17,6 +17,7 @@ My GPS - Tracking: aplicação para monitoramento e geolocalização através do
 - [axios](https://github.com/axios/axios) for networking.
 - [react-navigation](https://reactnavigation.org/) para navegação entre as telas.
 - [react-native-localization](https://github.com/stefalda/ReactNativeLocalization) para localização.
+- [WatermelonDB](https://watermelondb.dev/index.html)Biblioteca usado para gerenciar e persistir os dados.
 - [styled-components](https://styled-components.com/)Para a estilização.
 - [typescript](https://docs.expo.dev/guides/typescript/)Instalação do Typescript no projeto.
 
