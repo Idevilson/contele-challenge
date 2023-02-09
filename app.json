@@ -5,6 +5,20 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+
+    "ios": {
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
+    },
+    "android": {
+	    "permissions": [
+	      "ACCESS_BACKGROUND_LOCATION"
+	    ]
+	  }
   }
 }

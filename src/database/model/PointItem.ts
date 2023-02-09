@@ -18,6 +18,9 @@ class PointItem extends Model {
 
     @field('time')
     time!: string;
+
+    @field('isSynchronized')
+    isSynchronized!: boolean;
 }
 
 export { PointItem }

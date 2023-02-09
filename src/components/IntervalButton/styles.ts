@@ -20,6 +20,6 @@ export const Container = styled.TouchableOpacity<ContainerProps>`
 
 export const IntervalButtonText = styled.Text<ContainerProps>`
     font-size: 20px;
-
-    color: ${( props ) => props.isActive === false && '#ccd0dd'}
+    color: ${( props ) => props.isActive === false ? '#ccd0dd' : "#000"};
+    font-weight: ${( props ) => props.isActive === true ? 900 : 200 };
 `;

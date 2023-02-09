@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 
-export const Container = styled.View`
+export const Container = styled.SafeAreaView`
     flex: 1;
     
 `;
@@ -10,6 +10,7 @@ export const Header = styled.View`
     height: 60px;
     background-color: #1d1c84;
     align-items: center;
+
     padding-left: 15px;
     padding-right: 15px;
 
@@ -65,9 +66,15 @@ export const RightAreaTitle = styled.Text`
     font-weight: bold;
 `;
 
+
 export const OnlineIndicatior = styled.Text`
     font-size: 20px;
     color: #0fbc01;
+`;
+
+export const OfflineIndicatior = styled.Text`
+    font-size: 20px;
+    color: red;
 `;
 
 export const StatusOfServiceContainer = styled.View`
