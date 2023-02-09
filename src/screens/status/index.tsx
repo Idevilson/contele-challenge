@@ -12,7 +12,7 @@ import {
     PackageSeparator
 } from "./styles";
 
-import { useGpsData } from "../../hooks/gpsDataContext";
+import { useNavigation }  from '@react-navigation/native';
 import { Package } from "../../components/package";
 import { useRoute } from "@react-navigation/native";
 
@@ -30,20 +30,16 @@ export function Status(){
 
     const route = useRoute();
     const points = route.params as pointProps[];
+
+    const navigation = useNavigation();
    
     console.log("Home renderizou");
-
-    useEffect(() => {
-        if(isServiceActive){
-            
-        }
-    }, []);
 
    
     return(
         <Container>
             <Header>
-                <HeaderButton>
+                <HeaderButton onPress={() => navigation.navigate('Home')}>
                     <HeaderButtonText>
                         Voltar
                     </HeaderButtonText>
@@ -60,10 +56,10 @@ export function Status(){
                             <>
                             <Package 
                                 packageIdText={point.id}
-                                packageStatus={"Pendente Sincronizar"}
+                                packageStatus={"status"}
                                 packageTime={"11:32"}
                             />
-                            
+
                             <PackageSeparator />
                             </>
                         ))
